@@ -48,46 +48,47 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="max-w-screen-xl mx-auto px-15 lg:px-20">
-    <header>
-      <div class="pt-10 mb-20 md:flex justify-center items-center">
-        <!-- text content -->
-        <div class="ml-5">
-          <h1 class="text-4xl md:text-6xl sm:text-5xl font-bold">
-            It's good <br />
-            tea time at The <br />
-            Tea House
-          </h1>
-          <p class="mt-2 mb-2 md:w-3/4 text-gray-500">
-            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
-            Your Taste Buds.
-          </p>
-          <button
-            class="text-xl text-white btn bg bg-gradient-to-r from-orange-500 to-red-500"
-          >
-            Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
-          </button>
-        </div>
-        <!-- Image content -->
-        <div class="relative ml-5">
-          <!-- image -->
-          <img src="images/banner.png" alt="" />
-          <!-- card -->
-          <div
-            class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-3/4 left-32"
-          >
-            <!-- icon -->
-            <i class="fa-solid fa-star text-2xl text-amber-500"></i>
-            <!-- text -->
-            <div class="ml-3">
-              <h3 class="font-bold text-2xl">5.00</h3>
-              <p class="text-gray-500">Trust Pilot Ratings</p>
+  <body>
+    <main class="max-w-screen-xl mx-auto px-15 lg:px-20">
+      <!-- Header section -->
+      <header>
+        <div class="pt-10 mb-20 md:flex justify-center items-center">
+          <!-- text content -->
+          <div class="ml-5">
+            <h1 class="text-4xl md:text-6xl sm:text-5xl font-bold">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h1>
+            <p class="mt-2 mb-2 md:w-3/4 text-gray-500">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button
+              class="text-xl text-white btn bg bg-gradient-to-r from-orange-500 to-red-500 hover:text-black"
+            >
+              Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </button>
+          </div>
+          <!-- Image content -->
+          <div class="relative ml-5">
+            <!-- image -->
+            <img src="images/banner.png" alt="" />
+            <!-- card -->
+            <div
+              class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-3/4 left-32"
+            >
+              <!-- icon -->
+              <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+              <!-- text -->
+              <div class="ml-3">
+                <h3 class="font-bold text-2xl">5.00</h3>
+                <p class="text-gray-500">Trust Pilot Ratings</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <main>
+      </header>
       <!-- our featured products -->
       <div class="text-center mb-20">
         <h1 class="text-4xl md:text-5xl font-bold">Our Featured Products</h1>
@@ -334,6 +335,90 @@
         </div>
       </section>
     </main>
+    <footer class="bg-orange-300 text-gray-700 py-10 px-4 md:px-15">
+      <div class="w-9/12 mx-auto">
+        <!-- logo -->
+        <div class="mb-8 flex justify-between">
+          <img class="mb-8" src="./images/cup.png" alt="" />
+          <div class="flex items-center gap-4">
+            <h4 class="font-bold">Ready to get started?</h4>
+            <button
+              class="text-sm border-none text-white btn bg bg-gradient-to-r from-orange-500 to-red-500 hover:text-black"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <!-- Links -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- first column -->
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+            <ul class="space-y-2">
+              <li><a class="hover:text-orange-500" href="#">Home</a></li>
+              <li><a class="hover:text-orange-500" href="#">About Us</a></li>
+              <li><a class="hover:text-orange-500" href="#">Insurance</a></li>
+              <li>
+                <a class="hover:text-orange-500" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <!-- second column -->
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Our Service</h3>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500" href="#">Life Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-500" href="#">Car Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-500" href="#">Health Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-500" href="#">House Insurance</a>
+              </li>
+            </ul>
+          </div>
+          <!-- thrid column -->
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Help</h3>
+            <ul class="space-y-2">
+              <li><a class="hover:text-orange-500" href="#">FAQs</a></li>
+              <li><a class="hover:text-orange-500" href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- fourth column -->
+          <div>
+            <h3 class="font-semibold text-lg mb-3">
+              Subscribe to our newsletter
+            </h3>
+            <div class="flex flex-col space-y-2">
+              <div>
+                <input
+                  class="bg-transparent border-b-2 border-black w-4/6"
+                  type="text"
+                  placeholder="Email Adress"
+                />
+                <i
+                  class="fa-solid fa-circle-chevron-right text-orange-500 inline-flex rounded-full justify-center items-center text-4xl"
+                ></i>
+                <div class="flex justify-between w-2/5 mb-2 mt-8">
+                  <i class="fa-brands text-xl fa-facebook"></i>
+                  <i class="fa-brands text-xl fa-square-instagram"></i>
+                  <i class="fa-brands text-xl fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center pt-4 mt-4">
+          <p class="text-sm text-gray-600">
+            © 2027 UIDesign.to - All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
-  <footer></footer>
 </html>
